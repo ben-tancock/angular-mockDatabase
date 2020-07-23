@@ -1,0 +1,17 @@
+span{
+    width: 75px;
+    text-align: right;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.userCard{
+    border: 2px ridge blue;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.selected{
+    background-color: steelblue;
+    color: white;
+}
