@@ -1,0 +1,28 @@
+<h1>
+    Users
+</h1>
+
+<div class="userCard" *ngFor="let user of users"
+    (click)="selectUser(user)"
+    [class.selected]="user === selectedUser">
+    <div><span>Id:</span>{{user.id}}</div>
+    <div><span>Username:</span>{{user.userName}}</div>
+    <div><span>Email:</span>{{user.email}}</div>
+</div>
+
+<div *ngIf="selectedUser">
+    <label>user name:</label>
+    <input #updateName [ngModel]="selectedUser.userName" />
+
+    <label>user email:</label>
+    <input #updateEmail [ngModel]="selectedUser.email" />
+
+    <button (click)="updateUser(
+        { 
+            'id': selectedUser.id,
+            'userName': updateName.value,
+            'email': updateEmail.value
+        });">
+        Save
+    </button>
+</div>

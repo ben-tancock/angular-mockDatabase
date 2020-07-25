@@ -13,7 +13,9 @@ export class UserService {
   getUsers(): Promise<Object[]> {
     console.log("getting users...");
     console.log("get: " + this.http.get(this.url).toPromise().then(res => console.log(res)));
-    return this.http.get(this.url).toPromise().then((res:any) => res).catch(this.handleError) // you MUST use :any or a custom response type if data doesn't exist on the thing
+    return this.http.get(this.url)
+      .toPromise()
+        .then((res:any) => res).catch(this.handleError) // you MUST use :any or a custom response type if data doesn't exist on the thing
     // all I had to do to get this line to work was change .then((res:any) => res.data) to .then((res:any) => res) 
   }
 
@@ -30,7 +32,6 @@ export class UserService {
   }
 
   createUser(user): Promise<any>{
-    var usersArr = null;
     return this.http.get(this.url).toPromise().then((res:any) => {
       if(res.length == 0){
         console.log("users is null");
@@ -49,6 +50,17 @@ export class UserService {
       }
 
     });
+  }
+
+  updateUser(user): Promise<void>{
+    const url = this.url + '/' + user.id;
+    this.http.get(url).toPromise().then(res => console.log("replacing " + JSON.stringify(res) + " with " + JSON.stringify(user)));
+    
+    
+    return this.http.put(url, user) // you don't need to cast user to json...
+      .toPromise()
+        .then(() => user)
+          .catch(this.handleError);  
   }
 
   private handleError(error:any): Promise<any>{

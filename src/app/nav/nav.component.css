@@ -1,0 +1,13 @@
+a{
+    padding: 5px 10px;
+    border: 1px solid darkblue;
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;   
+}
+
+a:hover{
+    color: black;
+    background-color: lightgrey;
+}
