@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router, Params } from '@angular/router';
+
 
 @Component({
   selector: 'app-page1',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.css']
 })
 export class Page1Component implements OnInit {
-
-  constructor() { }
+  text = '';
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+  ) { }
 
   ngOnInit(): void {
+    
   }
+
+  gotoPage2(){
+    console.log("sending params: " + this.text);
+    this.router.navigate(['/page2'], {queryParams: {val: this.text}});
+  }
+
+  
 
 }

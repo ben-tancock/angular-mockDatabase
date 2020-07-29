@@ -1,1 +1,38 @@
-<p>page2 works!</p>
+<h3>Params from page 1:</h3>
+<p>{{queryParams}}</p>
+<button (click)="goBack()">back</button>
+
+<hr>
+<h2>This service takes a shapes dimensions as values, and returns the area (data transform service example)</h2>
+
+<br>
+<h3>Circle:</h3>
+<p>Enter radius:</p><input type="text" [(ngModel)]="circleRadius"/>
+<span>Area: {{this.doCircle()}} </span>
+<hr>
+
+
+<hr>
+<h3>Square:</h3>
+<p>Enter base:</p><input type="text" [(ngModel)]="baseSquare"/>
+<span>Area: {{this.doSquare()}} </span>
+<hr>
+
+<h3>Rectangle:</h3>
+<p>Enter length:</p><input type="text" [(ngModel)]="length"/>
+<p>Enter width:</p><input type="text" [(ngModel)]="width"/>
+<span>Area: {{this.doRectangle()}} </span>
+<hr>
+
+<h3>Triangle:</h3>
+<p>Enter base:</p><input type="text" [(ngModel)]="baseTriangle" />
+<p>Enter height:</p><input type="text" [(ngModel)]="height" />
+<span>Area: {{this.doTriangle()}} </span>
+<hr>
+
+<h3>Trapezoid:</h3>
+<p>Enter base 1:</p><input type="text" [(ngModel)]="base1" />
+<p>Enter base 2:</p><input type="text" [(ngModel)]="base2" />
+<p>Enter base 3:</p><input type="text" [(ngModel)]="base3" />
+<span>Area: {{this.doTrapezoid()}} </span>
+<hr>

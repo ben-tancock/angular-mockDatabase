@@ -1,4 +1,6 @@
 <app-create-delete></app-create-delete>
 <app-update></app-update>
 
-<p>page1 works!</p>
+<span>Enter Text to Pass as Params:</span>
+<input type="text" [(ngModel)]="text"/>
+<button [disabled]="!text" (click)="gotoPage2()">Page 2</button>

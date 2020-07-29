@@ -9,18 +9,23 @@ export class NavComponent implements OnInit {
 
   pages = [
     {
-      'url': 'page 1',
+      'url': 'page1',
       'text': 'page 1'
     },
 
     {
-      'url': 'page 2',
+      'url': 'page2',
       'text': 'page 2'
     },
 
     {
-      'url': 'page 3',
+      'url': 'page3',
       'text': 'page 3'
+    },
+
+    {
+      'url': 'page4',
+      'text': 'page 4'
     }
   ]
 

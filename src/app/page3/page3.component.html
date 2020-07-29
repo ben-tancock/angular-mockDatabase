@@ -1,1 +1,13 @@
 <p>page3 works!</p>
+
+<img src="{{imgInfo.url}}" 
+      width="{{imgInfo.width}}">
+
+  <p>{{imgInfo.title}}</p>
+
+<hr>
+
+<h3>Random Image History</h3>
+<span *ngFor="let image of imgHistory">
+  <img src="{{image.url}}" height="50px">
+</span>

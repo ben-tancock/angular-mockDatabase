@@ -1,0 +1,31 @@
+[
+    {
+        "userID": 1,
+        "userName": "brendan",
+        "userEmail": "brendan@gmail.com"
+    },
+
+    {
+        "userID": 2,
+        "userName": "matt",
+        "userEmail": "matt@gmail.com"
+    },
+
+    {
+        "userID": 3,
+        "userName": "bob",
+        "userEmail": "bob@gmail.com"
+    },
+
+    {
+        "userID": 4,
+        "userName": "bill",
+        "userEmail": "bill@gmail.com"
+    },
+
+    {
+        "userID": 5,
+        "userName": "tom",
+        "userEmail": "tom@gmail.com"
+    }
+]

@@ -51,9 +51,6 @@ export class CreateDeleteComponent implements OnInit {
     }
 
     this.UserService.createUser(user).then((res:any) => {
-      //res = user;
-      //console.log("this is res:" + res);
-      //console.log("this is users: " + this.users);
       console.log("pushing to user...");
       this.users.push(user);
     })
