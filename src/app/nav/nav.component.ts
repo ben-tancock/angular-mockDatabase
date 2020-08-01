@@ -26,6 +26,11 @@ export class NavComponent implements OnInit {
     {
       'url': 'page4',
       'text': 'page 4'
+    },
+
+    {
+      'url': 'page5',
+      'text': 'page 5'
     }
   ]
 

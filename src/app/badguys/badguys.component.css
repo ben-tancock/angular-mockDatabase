@@ -1,0 +1,13 @@
+b{
+    font-weight: bold;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+.character{
+    border: 2px solid red;
+}

@@ -19,6 +19,12 @@ import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
+import { Page5Component } from './page5/page5.component';
+import { GoodguysComponent } from './goodguys/goodguys.component';
+import { BadguysComponent } from './badguys/badguys.component';
+import { Page6Component } from './page6/page6.component';
+import { SharedServiceService } from './shared-service.service';
+import { fromEventPattern } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -32,6 +38,11 @@ import { Page4Component } from './page4/page4.component';
     Page2Component,
     Page3Component,
     Page4Component,
+    Page5Component,
+    GoodguysComponent,
+    BadguysComponent,
+    Page6Component,
+    
   ],
   imports: [
     BrowserModule,
