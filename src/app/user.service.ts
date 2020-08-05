@@ -48,7 +48,6 @@ export class UserService {
           email: user.email
         }).toPromise().then((res:any) => res.data).catch(this.handleError);
       }
-
     });
   }
 
