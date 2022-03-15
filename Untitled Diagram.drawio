@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T20:05:05.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="BLN3R7zrx93INUSkGW-x" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T20:09:42.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="df04mNXZNqNSC-NUBx9B" version="17.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4591" dy="2564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="1350" y="1000" width="400" height="230" as="geometry" />
         </mxCell>
         <mxCell id="pHHMYU32tIIWlQX60DXq-15" value="API GATEWAYS" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="910" width="280" height="140" as="geometry" />
+          <mxGeometry x="250" y="1100" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="pHHMYU32tIIWlQX60DXq-16" value="SWAGGER" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="1300" width="273" height="90" as="geometry" />
@@ -23,25 +23,25 @@
           <mxGeometry x="300" y="3410" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pHHMYU32tIIWlQX60DXq-21" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2260" y="170" width="490" height="650" as="geometry" />
+          <mxGeometry x="2210" y="170" width="540" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=40.99999999999994;fontSize=24;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry width="490" height="650" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=73.7777777777776;fontSize=24;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry y="-10.769230769230768" width="540" height="710.7692307692307" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-19" value="The Databases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry x="194.3103448275862" y="170.23809523809527" width="101.37931034482757" height="46.42857142857143" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-19" value="&lt;font style=&quot;font-size: 39px&quot;&gt;The Databases&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry x="156.66612244897956" y="183.07692307692307" width="226.67877551020405" height="50.00153846153846" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-5" value="&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;a href=&quot;https://us-east-1.console.aws.amazon.com/eks/home?region=us-east-1#/clusters&quot;&gt;K8 Cluster&lt;/a&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry x="33.79" y="270" width="196.21" height="110" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-5" value="&lt;font size=&quot;1&quot;&gt;&lt;a href=&quot;https://us-east-1.console.aws.amazon.com/eks/home?region=us-east-1#/clusters&quot; style=&quot;font-size: 29px&quot;&gt;K8 Cluster&lt;/a&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry x="37.23795918367347" y="290.7692307692308" width="216.23142857142855" height="118.46153846153845" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;a href=&quot;https://s3.console.aws.amazon.com/s3/home?region=us-east-1&quot;&gt;S3 bucket&lt;/a&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry x="270.35" y="278.57" width="149.65" height="81.43" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-6" value="&lt;font size=&quot;1&quot;&gt;&lt;a href=&quot;https://s3.console.aws.amazon.com/s3/home?region=us-east-1&quot; style=&quot;font-size: 28px&quot;&gt;S3 bucket&lt;/a&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry x="297.93673469387755" y="299.9984615384615" width="164.9204081632653" height="87.69384615384615" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;SQL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry x="20" y="450" width="186.61" height="92.14" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-3" value="&lt;font style=&quot;font-size: 29px&quot;&gt;SQL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry x="47.82081632653061" y="484.6153846153846" width="205.65183673469386" height="99.22769230769231" as="geometry" />
         </mxCell>
-        <mxCell id="pHHMYU32tIIWlQX60DXq-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;MongoDB&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
-          <mxGeometry x="270.34" y="417.85" width="159.66" height="82.15" as="geometry" />
+        <mxCell id="pHHMYU32tIIWlQX60DXq-4" value="&lt;font style=&quot;font-size: 25px&quot;&gt;MongoDB&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHHMYU32tIIWlQX60DXq-21">
+          <mxGeometry x="297.9257142857142" y="449.9923076923077" width="175.95183673469387" height="88.46923076923078" as="geometry" />
         </mxCell>
         <mxCell id="pHHMYU32tIIWlQX60DXq-24" value="airvm.hyalto-dev&amp;lt;num&amp;gt;.com" style="rounded=1;whiteSpace=wrap;html=1;fontSize=40;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2450" y="1480" width="570" height="190" as="geometry" />
@@ -85,6 +85,15 @@
         </mxCell>
         <mxCell id="pHHMYU32tIIWlQX60DXq-33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-docker-128.png;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2580" y="860" width="459" height="459" as="geometry" />
+        </mxCell>
+        <mxCell id="pHHMYU32tIIWlQX60DXq-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=39;strokeWidth=7;exitX=0.422;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.576;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pHHMYU32tIIWlQX60DXq-11" target="pHHMYU32tIIWlQX60DXq-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="970" as="sourcePoint" />
+            <mxPoint x="364.0760036775973" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHHMYU32tIIWlQX60DXq-39" value="(sometimes)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=39;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="960" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
